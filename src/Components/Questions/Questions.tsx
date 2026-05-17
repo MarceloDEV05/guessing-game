@@ -100,7 +100,7 @@ export const Questions = () => {
     if (isFinished) {
         return (
             <>
-                <div className="flex flex-col gap-5 border w-full h-full px-5 rounded-2xl shadow-2xl bg-blue-500 text-white pt-5 lg:w-70 lg:h-70">
+                <div className="flex flex-col gap-5 border w-full h-full px-10 rounded-2xl shadow-2xl bg-blue-500 text-white lg:pt-5 lg:w-70 lg:h-70">
                     <h1 className="text-center text-2xl font-bold">Fim de jogo</h1>
 
                     <h2>Pontuação: {pontuation}</h2>
